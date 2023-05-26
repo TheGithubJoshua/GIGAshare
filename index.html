@@ -113,6 +113,29 @@ function handleFiles(files) {
     Made With ❤️ By
     <a href="https://github.com/Varshithvhegde">Varshith V Hegde</a>
   </p>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyA3g2Z4_RqkuYBOFssL_0QQfmVXRmVa50Y",
+    authDomain: "gigashare-8c656.firebaseapp.com",
+    projectId: "gigashare-8c656",
+    storageBucket: "gigashare-8c656.appspot.com",
+    messagingSenderId: "883414466633",
+    appId: "1:883414466633:web:5dd056341dd00ee0e7ff98",
+    measurementId: "G-VML1NKVRP9"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase.js"></script>
 <script src="script.js"></script>
