@@ -132,9 +132,9 @@ function showimage() {
 function flesize() {
   var file = document.getElementById("file").files[0];
   // Dont allow file size greater than 100MB
-  if (file.size > 5000000000) {
+  if (file.size > 5100000000) {
     alert(
-      "File size is greater than 5GB\n Please select a file less than 100MB"
+      "File size is greater than 5GB\n Please select a file less than 5GB"
     );
     document.getElementById("file").value = "";
   }
